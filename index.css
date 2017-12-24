@@ -7,14 +7,15 @@
   position: relative;
   background-color: #bfbfbf;
   color: white;
-  height: 200px;
+  height: 400px;
 }
 
 #name_who_social{
   position: absolute;
   left: 50%;
+  top:40%;
   transform: translateX(-50%);
-  text-align: center;
+  text-align: center; 
 }
 
 #name{
@@ -23,7 +24,31 @@
   
 }
 
-
 #options{
+  
+}
+
+#projects{
+  font-size:20px;
   font-weight: bold;
+}
+
+#education{
+  font-size:20px;
+  font-weight: bold;
+}
+
+#experience{
+  font-size:20px;
+  font-weight: bold;
+}
+
+#contact{
+  font-size:20px;
+  font-weight: bold;
+}
+
+
+p{
+  font-size:12px;
 }
