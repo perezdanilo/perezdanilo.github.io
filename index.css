@@ -3,6 +3,11 @@
   font-family: Verdana;
 }
 
+#who a{
+  text-decoration: none;
+  color: white;
+}
+
 #name_who_social_box{ 
   position: relative;
   background-color: #bfbfbf;
@@ -36,6 +41,11 @@
 #education{
   font-size:20px;
   font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 #experience{
