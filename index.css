@@ -10,7 +10,7 @@
 
 #name_who_social_box{ 
   position: relative;
-  background-color: #bfbfbf;
+  background-color: #999999;
   color: white;
   height: 400px;
 }
@@ -20,7 +20,8 @@
   left: 50%;
   top:40%;
   transform: translateX(-50%);
-  text-align: center; 
+  text-align: center;
+  
 }
 
 #name{
@@ -30,7 +31,8 @@
 }
 
 #options{
-  
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #projects{
