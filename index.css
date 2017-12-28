@@ -9,29 +9,34 @@
 }
 
 #name_who_social_box{ 
-  position: relative;
-  background-color: #cc0000;
+  /*position: relative;*/
+  background-color: #999999;
   color: white;
   height: 400px;
+  width: 100%;
+  display:table;
 }
 
 #name_who_social{
-  /*position: absolute;*/
-  /*left: 50%;
-  top: 40%;*/  
-  /*transform: translateX(-50%);*/
-  text-align: center;  
+  /*position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translateX(-50%);
+  text-align: center;*/
+  text-align: center;
+vertical-align:middle;
+display:table-cell;
 }
 
 #name{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   
 }
 
 #options{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #options p{
