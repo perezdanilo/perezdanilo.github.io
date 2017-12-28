@@ -16,15 +16,15 @@
 }
 
 #name_who_social{
-  position: absolute;
-  left: 50%;
-  top:40%;
-  transform: translateX(-50%);
+  /*position: absolute;*/
+  /*left: 50%;
+  top: 40%;*/  
+  /*transform: translateX(-50%);*/
   text-align: center;  
 }
 
 #name{
-  font-size: 180%;
+  font-size: 25px;
   font-weight: bold;
   
 }
