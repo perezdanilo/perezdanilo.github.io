@@ -35,16 +35,13 @@ display:table-cell;
   font-weight: bold;
   
 }
-/*
+
 #options{
   margin-left: 10%;
   margin-right: 10%;
-}*/
-
-body{
-  margin-left: 10%;
-  margin-right: 10%;
 }
+
+
 
 #options p{
   font-size: 15px;
@@ -67,7 +64,7 @@ a:hover{
 
 
 @media only screen and (max-width: 500px) {
-  body{
+  #options{
     margin-left: 2%;
     margin-right: 2%;
     
