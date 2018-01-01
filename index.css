@@ -12,12 +12,12 @@
   /*position: relative;*/
   /*background-color: #999999;*/
   background: url(https://halloweenlove.com/images/posts/twin-peaks-2017-1.jpg);
-  
   color: white;
-  height: 550px;
+  height: 600px;
   width: 100%;
   display:table;
 }
+
 
 #name_who_social{
   /*position: absolute;
@@ -35,10 +35,15 @@ display:table-cell;
   font-weight: bold;
   
 }
-
+/*
 #options{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}*/
+
+body{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #options p{
@@ -60,10 +65,11 @@ a:hover{
   color: red;
 }
 
-/*
+
 @media only screen and (max-width: 500px) {
-  #name{
-    font-size: 50px;
+  body{
+    margin-left: 2%;
+    margin-right: 2%;
+    
   }
 }
-*/
