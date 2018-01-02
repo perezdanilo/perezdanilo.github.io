@@ -1,21 +1,26 @@
 *{
   margin: 0 auto;
-  font-family: Verdana;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #who a{
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+#who a:hover{
+  text-decoration: none;
+  color: red;
 }
 
 #name_who_social_box{ 
   /*position: relative;*/
   /*background-color: #999999;*/
-  background: url(https://halloweenlove.com/images/posts/twin-peaks-2017-1.jpg);
   color: white;
-  height: 600px;
+  height: 300px;
   width: 100%;
   display:table;
+  color: black;
 }
 
 
@@ -31,14 +36,13 @@ display:table-cell;
 }
 
 #name{
-  font-size: 30px;
-  font-weight: bold;
-  
+  font-size: 40px;
+  font-weight: bold;  
 }
 
 #options{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 
@@ -48,7 +52,7 @@ display:table-cell;
 }
 
 .titles{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -63,10 +67,10 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #options{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     
   }
 }
