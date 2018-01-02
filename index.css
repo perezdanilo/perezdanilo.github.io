@@ -14,12 +14,12 @@
 }
 
 #social{
-  margin: 0 auto;
-  vertical-align: middle;
+  margin: 0px;
 }
 
 #social img{
-  padding: 8px;  
+  padding: 5px;  
+  vertical-align: middle;
 }
 
 
@@ -58,7 +58,8 @@
 
 
 #options p{
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 2em;
 }
 
 .titles{
