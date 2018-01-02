@@ -10,8 +10,18 @@
 
 #who a:hover{
   text-decoration: none;
-  color: red;
+  font-weight: bold;
 }
+
+#social{
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+#social img{
+  padding: 8px;  
+}
+
 
 #name_who_social_box{ 
   /*position: relative;*/
@@ -31,12 +41,12 @@
   transform: translateX(-50%);
   text-align: center;*/
   text-align: center;
-vertical-align:middle;
-display:table-cell;
+  vertical-align:middle;
+  display:table-cell;
 }
 
 #name{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;  
 }
 
@@ -52,7 +62,7 @@ display:table-cell;
 }
 
 .titles{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -63,11 +73,11 @@ a{
 }
 
 a:hover{
-  color: red;
+  font-weight: bold;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #options{
     margin-left: 5%;
     margin-right: 5%;
